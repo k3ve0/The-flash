@@ -1,0 +1,289 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1762972836245638, "dur":13711, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836259430, "dur":422, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836259872, "dur":3512, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836263385, "dur":162612, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836425998, "dur":161, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836426159, "dur":157, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836426441, "dur":1235, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1762972836260044, "dur":3346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762972836263394, "dur":5045, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762972836270887, "dur":531, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1762972836271421, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762972836271568, "dur":1760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1762972836273329, "dur":1254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1762972836274856, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836275136, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836275294, "dur":563, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836275858, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836276144, "dur":679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836276824, "dur":428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836277253, "dur":557, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836277811, "dur":393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836278205, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836278439, "dur":566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836279006, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836279242, "dur":577, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\swagg\\Desktop\\OmniMan\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1762972836279880, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerfc5ee54a-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1762972836271420, "dur":8887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762972836280657, "dur":71, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762972836281477, "dur":138662, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762972836425036, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762972836425035, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762972836425183, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1762972836260062, "dur":3345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762972836263410, "dur":1203, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762972836264613, "dur":3841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762972836268456, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1762972836271169, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1762972836272506, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1762972836274864, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762972836272831, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1762972836275030, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1762972836275030, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/OmniMan.exe" }}
+,{ "pid":12345, "tid":2, "ts":1762972836275100, "dur":12061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan.exe" }}
+,{ "pid":12345, "tid":2, "ts":1762972836287206, "dur":4737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762972836292013, "dur":4931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762972836297014, "dur":6763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762972836303855, "dur":4724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762972836308656, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762972836313405, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762972836318607, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762972836318662, "dur":13071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1762972836331787, "dur":94276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762972836260055, "dur":3345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762972836263406, "dur":1429, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762972836264835, "dur":3618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762972836268485, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1762972836268477, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1762972836271200, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1762972836276676, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836279746, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836283825, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836288298, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836293009, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836298195, "dur":6662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836304918, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836309855, "dur":5103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836315027, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762972836326200, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762972836319493, "dur":6832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1762972836326505, "dur":7796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1762972836334368, "dur":91659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762972836260091, "dur":3325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762972836263421, "dur":1046, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762972836264467, "dur":3994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762972836268471, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1762972836271412, "dur":11120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1762972836282654, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836287770, "dur":4523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836292336, "dur":4920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836297371, "dur":6853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836304296, "dur":4564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836308932, "dur":4900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836313910, "dur":5035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762972836319050, "dur":6949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1762972836326059, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1762972836330430, "dur":95645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762972836260122, "dur":3301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762972836263427, "dur":1045, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762972836264472, "dur":4026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762972836268499, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1762972836275876, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1762972836277964, "dur":6068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836284114, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836288473, "dur":4693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836293218, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836299323, "dur":6105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836305468, "dur":4867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836310409, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836315322, "dur":4905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762972836320342, "dur":7012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1762972836327435, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1762972836330909, "dur":95143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762972836260146, "dur":3285, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762972836263438, "dur":1133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762972836264571, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762972836268479, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1762972836274792, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762972836273089, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1762972836275006, "dur":349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762972836275004, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762972836275416, "dur":68062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762972836343557, "dur":82481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762972836260178, "dur":3265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762972836263447, "dur":1051, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762972836264498, "dur":3997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762972836268495, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1762972836273616, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1762972836276570, "dur":6770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836283425, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836287965, "dur":4873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836292903, "dur":5119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836298071, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836304528, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836309318, "dur":4994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836314393, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762972836319774, "dur":8651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1762972836328488, "dur":97500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762972836260197, "dur":3253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762972836263455, "dur":887, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762972836264342, "dur":4138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762972836268568, "dur":658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1762972836268481, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1762972836271034, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1762972836272802, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1762972836273288, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1762972836276440, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836283068, "dur":4793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836287929, "dur":4564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836292557, "dur":4862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836297518, "dur":6712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836304312, "dur":4415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836308780, "dur":4841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836313680, "dur":4941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762972836318785, "dur":5619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1762972836324632, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1762972836329216, "dur":96883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762972836260226, "dur":3230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762972836263460, "dur":916, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762972836264376, "dur":4100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762972836268479, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1762972836272193, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1762972836273900, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1762972836276774, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762972836274881, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1762972836276917, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836281616, "dur":4296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836286005, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836290189, "dur":4895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836295121, "dur":6251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836301416, "dur":4690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836306168, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836310854, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836315652, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836315651, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836315957, "dur":37086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762972836353081, "dur":72924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762972836260250, "dur":3215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762972836263472, "dur":238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762972836263711, "dur":4763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762972836268505, "dur":597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762972836268478, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762972836273139, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762972836275239, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1762972836276432, "dur":6083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1762972836282601, "dur":4748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836287428, "dur":4580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836292087, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836297121, "dur":6644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836303826, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836308562, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836313039, "dur":4985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762972836318111, "dur":33412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762972836351578, "dur":74436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762972836260290, "dur":3186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762972836263476, "dur":4971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762972836268461, "dur":607, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1762972836268452, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1762972836272290, "dur":24084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1762972836296456, "dur":6812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762972836303314, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762972836308248, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762972836312998, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762972836317661, "dur":39786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1762972836357477, "dur":68518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762972836260311, "dur":3175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762972836263487, "dur":5001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762972836268511, "dur":647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1762972836268490, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1762972836276727, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762972836274129, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1762972836276874, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836281824, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836286236, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836290986, "dur":4580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836295638, "dur":6616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836302315, "dur":95, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762972836302411, "dur":4319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836306776, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836311443, "dur":5889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762972836317390, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1762972836320569, "dur":5446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1762972836326102, "dur":4252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1762972836330414, "dur":95577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762972836260340, "dur":3155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762972836263495, "dur":4973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762972836268475, "dur":711, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1762972836268468, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1762972836275299, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1762972836277919, "dur":5928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836283929, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836288452, "dur":5404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836293897, "dur":6385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836300365, "dur":5418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836305843, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836310566, "dur":4802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836315420, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762972836319550, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762972836319684, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1762972836322083, "dur":6506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1762972836328634, "dur":97356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762972836260364, "dur":3135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762972836263500, "dur":4969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762972836268476, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1762972836275956, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1762972836278260, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836282348, "dur":4360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836286772, "dur":4264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836291123, "dur":4566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836295754, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836302761, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836307473, "dur":4715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836312231, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762972836317451, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1762972836326145, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762972836320775, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level3" }}
+,{ "pid":12345, "tid":14, "ts":1762972836326484, "dur":3987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1762972836330534, "dur":95555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762972836260383, "dur":3119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762972836263503, "dur":4942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762972836268461, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762972836269562, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1762972836271736, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1762972836271735, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1762972836272381, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1762972836274233, "dur":475, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836274232, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836275226, "dur":15419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836290717, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836295750, "dur":6493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836302317, "dur":4167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836306536, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836311405, "dur":4792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762972836316251, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1762972836317503, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":15, "ts":1762972836321108, "dur":6884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1762972836328067, "dur":97926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762972836260431, "dur":3084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762972836263515, "dur":4966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762972836268483, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1762972836271239, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1762972836272752, "dur":373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1762972836272751, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1762972836273144, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1762972836276064, "dur":6961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836283104, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836287925, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836292507, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836297376, "dur":7030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836304475, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836309283, "dur":4854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836314239, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762972836319383, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762972836324396, "dur":191, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762972836319474, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1762972836324648, "dur":4754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/swagg/Desktop/itchplayable/OmniMan_Data/level1" }}
+,{ "pid":12345, "tid":16, "ts":1762972836329437, "dur":96671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762972836430138, "dur":763, "ph":"X", "name": "ProfilerWriteOutput" }
+,

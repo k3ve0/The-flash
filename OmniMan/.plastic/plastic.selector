@@ -1,0 +1,4 @@
+repository "OmniMan/SuperHeroGame@2475576118707@cloud"
+  path "/"
+    br "/main"
+    co "/main"
